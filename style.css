@@ -577,6 +577,7 @@ img.balls {
   border-radius: 8px;
   display: block;
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .layer {
@@ -595,6 +596,7 @@ img.balls {
   text-align: center;
   padding: 0 40px;
   transition: height 0.5s;
+  cursor: pointer;
 }
 
 .layer h5 {
