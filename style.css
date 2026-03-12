@@ -13,10 +13,10 @@
   font-size: 62.5%;
 
   --bg-color: #000000;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #7757b7;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 0.5);
+  --second-text-color: #bd80f9;
+  --card-bg-color: hsla(266, 100%, 62%, 0.5);
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -37,20 +37,21 @@
   
   --button-text-color-hover: #FFFFFF;
 
-  --bg-contact: url("./img/bg-contact-dark.png");
+  --bg-contact: url("./img/bg-estrela.jpg");
   --border-form: none;
   --bg-form: rgba(24, 24, 24, 0.726);
 
-  --color-social-media: #FFFFFF;
+  --color-social-media: #ffffff;
+
 }
 
 .light {
-  --bg-color: #ffffff;
-  --second-bg-color: #C94C16;
+  --bg-color: #ebc8ff;
+  --second-bg-color:#7757b7;
   
   --text-color: #000000;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 1);
+  --second-text-color: #7757b7;
+  --card-bg-color: #7757b7;
 
   --highlight-color: rgba(0, 0, 0, 0.25);
   --switch-bg-url: url("./img/sun.svg");
@@ -68,11 +69,11 @@
 
   --button-text-color-hover: #000000;
 
-  --bg-contact: url("./img/bg-contact-white.png");
-  --border-form: 2px solid hsla(18, 80%, 44%, 1);
+  --bg-contact: url("./img/bg-roxo.jpg") ;
+  --border-form: 2px solid #7757b7;
   --bg-form: rgba(255, 255, 255, 0.726);
 
-  --color-social-media: #C94C16;
+  --color-social-media: #9316c9;
 }
 
 body {
@@ -256,7 +257,7 @@ section {
   font-weight: 800;
   font-size: 7rem;
   line-height: 10rem;
-  color: var(--text-color);
+  color: #7757b7;
   letter-spacing: -2px;
   line-height: 0.8;
 }
@@ -442,7 +443,7 @@ img.balls {
 }
 
 .line {
-  border: 2px #FF4D00 solid;
+  border: 2px #000000 solid;
   width: 17rem;
   margin-bottom: 1rem;
 }
@@ -498,7 +499,7 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #FF4D00;
+  background-color: #bd89f7;
   transform: translateY(-10px);
 }
 
@@ -659,7 +660,7 @@ img.balls {
 .contact {
   background-image: var(--bg-contact);
   background-position: center;
-  background-size: cover;
+  background-size: 60%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -780,7 +781,7 @@ form textarea {
 .thank-you-message {
   display: none;
   font-size: 3rem;
-  color: green;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-top: 2rem;
   font-weight: bold;
@@ -1071,4 +1072,6 @@ form textarea {
   .row {
     width: 90%;
   }
+  
 }
+
